@@ -36,7 +36,7 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/iris-classifier.git
+git clone https://github.com/Longe-J/iris-classifier.git
 cd iris-classifier
 ```
 
