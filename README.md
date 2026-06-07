@@ -40,7 +40,6 @@ git clone https://github.com/Longe-J/iris-classifier.git
 cd iris-classifier
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username.
 
 ### 2. Create a Virtual Environment
 
