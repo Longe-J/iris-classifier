@@ -44,7 +44,7 @@ cd iris-classifier
 ### 2. Create a Virtual Environment
 
 On Windows:
-
+ 
 ```bash
 python -m venv venv
 ```

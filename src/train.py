@@ -1,5 +1,6 @@
 import argparse
 from pathlib import Path
+import joblib
 
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
@@ -47,6 +48,13 @@ def main():
 
     # Train the model
     model.fit(X_train, y_train)
+
+    output_dir = Path("outputs")
+    output_dir.mkdir(exist_ok=True)
+
+    # Save the trained model
+    joblib.dump(model, output_dir / "model.joblib")
+    print("Saved trained model to outputs/model.joblib")
 
     # Make predictions on unseen test data
     y_pred = model.predict(X_test)
